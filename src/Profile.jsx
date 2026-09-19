@@ -31,8 +31,11 @@ import './App.css'
 
     return(
         <div className="flex bg-gray-50 " id="one"> 
-            <img src="public\image\pic3.jpeg" className="rounded-full md:h-20 h-12 ml-2 w-12 md:w-20 md:ml-10 mt-10"/>
-            
+            <img
+  src="/image/pic3.jpeg"
+  className="rounded-full md:h-20 h-12 ml-2 w-12 md:w-20 md:ml-10 mt-10"
+  alt="Profile"
+/>
             <a href="/public\image\Chandan_sharma_-_Dot_Net_Developer (1).pdf" download className="text-red-600 hover:rounded-xl pl-[2%] w-[15%] mt-[1%] ml-[67%]  hover:bg-red-500 pt-[2%] hover:text-yellow-400" > 
             Curriculum Vitae | CV  </a>
 
