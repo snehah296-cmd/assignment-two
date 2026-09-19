@@ -44,7 +44,7 @@ function Hello()
            
             <div className="flex mt-20">
                 <div className="bg-white w-[28%] ml-[5%]">
-                    <img src=" public\image\Smart Resume.jpeg" className="w-full h-[40%]"/>
+                    <img src=" /image/Smart Resume.jpeg" className="w-full h-[40%]"/>
                     <p className="text-black pl-8  text-xl pt-10"> Featured Project</p>
                     <p className="pl-8 pt-7 text-blue-400 text-2xl">Smart Resume Scanner</p>
                     <p className="text-black text-justify w-[90%] pl-8 pt-8"> Smart Resume Scanner is an AI-powered web application designed 
@@ -70,7 +70,7 @@ function Hello()
                 </div>
 
                 <div className="bg-white w-[28%] ml-9">
-                     <img src=" public\image\Gyan pargas.jpeg" className="w-full h-[40%]"/>
+                     <img src=" /image/Gyan pargas.jpeg" className="w-full h-[40%]"/>
                      <p className="text-black pl-[7%] text-xl pt-[9%]"> Featured Project</p>
                      <p className="pl-8 pt-7 text-blue-400 text-2xl">Gyan Pargas Trust</p>
                     <p className="text-black text-justify w-[90%] pl-8 pt-8"> The Gyan Pargas Trust Website is a comprehensive 
@@ -103,7 +103,7 @@ function Hello()
                 </div>
 
                 <div className="bg-white w-[28%] ml-9">
-                     <img src=" public\image\Vyapar ERP.jpeg" className="w-full h-[40%]"/>
+                     <img src=" /image/Vyapar ERP.jpeg" className="w-full h-[40%]"/>
                      <p className="text-black pl-8 text-xl pt-10"> Featured Project</p>
                      <p className="pl-8 pt-7 text-blue-400 text-2xl">Vyapar ERP Software</p>
                     <p className="text-black text-justify w-[90%] pl-8 pt-8"> The Vyapar ERP System is a web-based enterprise resource planning solution developed to simplify and digitize 

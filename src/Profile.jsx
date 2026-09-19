@@ -193,7 +193,7 @@ import './App.css'
             </div>
 
             <div className="mt-8 mr-[14%] " >
-                <img src="public\image\pic3.jpeg"/>
+                <img src="/image/pic3.jpeg"/>
             </div>
         </div>
         </div>
