@@ -113,30 +113,37 @@ import './App.css'
 
     return(
         <div className="bg-gray-800 " id="two" >
-        <div className="flex">
-            <h1 className="font-bold text-white text-4xl md:pl-[15%]  pt-20"> My Portfolio</h1>
-            <p className="pt-[7%] pl-2 text-white">____________________________________________________</p>
+        <div className="flex ">
+            <h1 className="font-bold text-white text-4xl md:pl-[15%] pl-4 md:pt-20 pt-10"> My Portfolio</h1>
+            <p className="md:pt-[7%] pt-[21%] md:pl-2 pl-2  text-white">____________________________________________________</p>
         </div>
         <div className="flex">
-        <div className="flex flex-cols-2">
-            <div className="">
-                <p className="text-blue-400 pl-[21%] pt-6 w-[78%] text-justify"> Greetings, I'm Sneha, a seasoned
+
+            
+
+    
+
+        {/* <div className="flex flex-cols-2 "> */}
+
+         <div className="flex flex-col md:flex-row">
+            <div className="order-2 md:order-1">
+                <p className="text-blue-400 md:pl-[21%] pt-6 md:w-[78%] px-4  text-justify"> Greetings, I'm Sneha, a seasoned
                      web developer with  a passionate and dedicated CS & AI 
                  student currently pursuing my Bachelor of Technology (B.Tech) degree. 
                  I have a strong interest in web development and enjoy creating modern,
                  responsive, and user-friendly web applications that solve real-world problems.</p>
 
-                <p className="text-blue-400 pl-[21%] pt-6 w-[78%] text-justify">I am constantly learning new technologies and 
+                <p className="text-blue-400 md:pl-[21%] pt-6 md:w-[78%] px-4 text-justify">I am constantly learning new technologies and 
                     improving my development skills through academic projects and self-learning. 
                     My goal is to become a skilled software engineer capable of building 
                     innovative digital solutions that positively impact businesses and communities.</p>
 
-                <p className="text-blue-400 pl-[21%] pt-6 w-[78%] text-justify"> I am passionate about continuous learning and growth, both in my professional 
+                <p className="text-blue-400 md:pl-[21%] pt-6 md:w-[78%] px-4 text-justify"> I am passionate about continuous learning and growth, both in my professional 
                 and personal life. Beyond my role as a web developer, My dedication to learning is reflected in my constant pursuit of 
                  knowledge to deepen my understanding of Islam and improve my spiritual 
                  practices.</p>
 
-                <p className="text-blue-400 pl-[21%] pt-6 w-[78%] text-justify">I am enthusiastic about exploring new opportunities that challenge and expand 
+                <p className="text-blue-400 md:pl-[21%] pt-6 md:w-[78%] px-4 text-justify">I am enthusiastic about exploring new opportunities that challenge and expand 
                 my skills. The prospect of working in an environment that fosters continuous 
                 learning and skill development aligns with my belief that there is always room
                  for improvement. I invite open communication and collaboration, welcoming
@@ -145,20 +152,32 @@ import './App.css'
 
                 
 
-                <p className="text-blue-400 pl-[21%] pt-6 w-[78%] text-justify"> I enjoy exploring new technologies, 
+                <p className="text-blue-400 md:pl-[21%] pt-6 md:w-[78%] px-4 text-justify"> I enjoy exploring new technologies, 
                     solving challenging problems,
                      and working on projects that enhance my technical knowledge and practical experience.</p>
 
                     
 
-                <p className="text-blue-400 pl-[21%] pt-6 w-[78%] text-justify"> Over the time I've specialized in many 
+                <p className="text-blue-400 md:pl-[21%] pt-6 md:w-[78%] px-4 text-justify"> Over the time I've specialized in many 
                     technologies some of them are...</p>
 
-                <p className="text-blue-400 font-bold text-2xl pt-5 text-justify w-[90%] pl-[34%]">
-                    Technical Skills</p>
-                    <div className="flex flex-cols-2 w-[90%]">
-                        <div className="ml-[23%]">
-                        <p className="text-white pt-5 text-justify">Frontend Development</p>
+                {/* <p className="text-blue-400 font-bold text-2xl pt-5 text-justify w-[90%] pl-[30%] md:pl-[34%]">
+                    Technical Skills</p> */}
+
+                    <p className="text-blue-400 font-bold text-2xl pt-5 text-justify md:w-[90%] md:pl-[34%] px-4">
+                    Technical Skills
+                    </p>
+                    {/* <div className="flex flex-cols-2 w-[90%]"> */}
+
+                    <div className="flex flex-col md:flex-row md:w-[90%]">
+                        {/* <div className="md:ml-[23%] ml-20">
+                        <p className="text-white pt-5 text-justify">Frontend Development</p> */}
+
+                        <div className="ml-4 md:ml-[23%]">
+                        <p className="text-white pt-5 pl-2 text-justify">
+                            Frontend Development
+                         </p>
+
                         <p className="text-blue-400 pt-5 text-justify"> . HTML</p>
                         <p className="text-blue-400 pt-5 text-justify"> . CSS</p>
                         <p className="text-blue-400 pt-5 text-justify"> . JavaScript</p>
@@ -166,7 +185,7 @@ import './App.css'
                         <p className="text-blue-400 pt-5 text-justify"> . Bootstrap</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Tailwind CSS</p>
                         </div>
-                        <div className="ml-[15%]">
+                       <div className="ml-4 md:ml-[15%]">
                         <p className="text-white pt-5 text-justify">Backend Development</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Node.js</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Express.js</p>
@@ -176,25 +195,30 @@ import './App.css'
                         
                         </div>
                     </div>
-                    <div className="flex flex-cols-2 pt-5">
-                        <div className="ml-[21%]">
+                    {/* <div className="flex flex-cols-2 pt-5"> */}
+                    <div className="flex flex-col md:flex-row pt-5">
+
+                        <div className="ml-4 md:ml-[21%]">
                         <p className="text-white pt-5 text-justify"> Database</p>
                         <p className="text-blue-400 pt-5 text-justify"> . MongoDB</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Postgres SQL</p>
                         </div>
-                        <div className="ml-[22%]"> 
+                      <div className="ml-4 md:ml-[22%]">
                         <p className="text-white pt-5 text-justify">Tools & Technologies</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Git & GitHub</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Netlify</p>
+                        <p className="text-blue-400 pt-5 text-justify"> . Vercel</p>
+                        
                         <p className="text-blue-400 pt-5 text-justify"> . Visual Studio Code</p>
                         </div>
                     </div>
                 
             </div>
 
-            <div className="mt-8 mr-[14%] " >
-                <img src="/image/pic3.jpeg"/>
-            </div>
+            <div className="md:mt-8 md:mr-[14%] order-1 md:order-2 " >
+                <img className="w-32 h-32 mt-2 mx-8 object-cover mx-auto md:w-auto md:h-auto"
+                src="/image/pic3.jpeg"/>
+            </div> 
         </div>
         </div>
 
