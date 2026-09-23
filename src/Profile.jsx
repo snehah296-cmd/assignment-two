@@ -36,7 +36,9 @@ import './App.css'
   className="rounded-full md:h-20 h-12 ml-2 w-12 md:w-20 md:ml-10 mt-10"
   alt="Profile"
 />
-            <a href="/image/Sneha_Professional_Resume(1).pdf" download className="text-red-600 hover:rounded-xl pl-[2%] w-[15%] mt-[1%] ml-[67%]  hover:bg-red-500 pt-[2%] hover:text-yellow-400" > 
+            <a href="/image/Sneha_Professional_Resume(1).pdf" download className="text-red-600 hover:rounded-xl 
+            pl-[2%] md:w-[15%] mt-[1%] md:ml-[67%] ml-[42%]
+              hover:bg-red-500 pt-[2%] hover:text-yellow-400" > 
             Curriculum Vitae | CV  </a>
 
              
@@ -110,6 +112,11 @@ import './App.css'
     navigate("/projects");
     
   };
+
+  const handleOkClicks =()=>
+  {
+    navigate("/email");
+  }
 
     return(
         <div className="bg-gray-800 " id="two" >
@@ -222,16 +229,16 @@ import './App.css'
         </div>
         </div>
 
-        <div className="flex ml-20 mt-20" id="four" >
-        <p className="text-4xl font-bold text-white pl-12 pt-20"> Things I've Worked on, Some of Them</p>
-        <hr className="w-[27%] mt-[9%] ml-2"/>
+        <div className="flex ml-20 md:mt-20 mt-10" id="four" >
+        <p className="md:text-4xl text-3xl font-bold text-white md:pl-12  pt-20"> Things I've Worked on, Some of Them</p>
+        <hr className="md:w-[27%] md:mt-[9%] ml-2 mt-20 "/>
         </div>
 
         <div className="flex flex-cols-2" >
-            <div className="ml-[10%]">
+            <div className="md:ml-[10%] mx-3">
                 <p className="text-white pt-10"> Featured Project</p>
                 <p className="text-blue-400 text-2xl pt-4"> Smart Resume Scanner</p>
-                <div className="border border-gray-800 mt-4 bg-gray-600 w-[45%]">
+                <div className="border border-gray-800 mt-4 bg-gray-600 md:w-[45%] ">
                     <p className="text-white text-justify w-[100%] py-4 px-6"> Smart Resume Scanner is an AI-powered web application designed 
                         to analyze resumes and match them with job requirements. The platform helps job seekers improve their resumes by 
                         identifying strengths, weaknesses, missing skills, and formatting issues. Users can upload their resume in 
@@ -260,10 +267,10 @@ import './App.css'
 
             </div>
 
-             <div className="ml-[50%]">
+             <div className="md:ml-[50%] mx-3">
                 <p className="text-white pt-10"> Featured Project</p>
                 <p className="text-blue-400 text-2xl pt-4"> Gyan Pargas Trust</p>
-                <div className="border border-gray-800 mt-4 bg-gray-600 w-[85%]">
+                <div className="border border-gray-800 mt-4 bg-gray-600 md:w-[85%]">
                     <p className="text-white text-justify w-[100%] py-4 px-6"> The Gyan Pargas Trust Website is a comprehensive 
                     digital platform developed using
                     React.js (Frontend) and Node.js with Express (Backend).
@@ -289,10 +296,10 @@ import './App.css'
 
         
         <div className="flex flex-cols-2">
-            <div className="ml-[10%]">
+            <div className="md:ml-[10%] mx-3">
                 <p className="text-white pt-10"> Featured Project</p>
                 <p className="text-blue-400 text-2xl pt-4"> Vyapar ERP Software</p>
-                <div className="border border-gray-800 mt-4 bg-gray-600 w-[45%]">
+                <div className="border border-gray-800 mt-4 bg-gray-600 md:w-[45%]">
                     <p className="text-white text-justify w-[100%] py-4 px-6">The Vyapar ERP System is a web-based enterprise resource planning solution developed to simplify and digitize 
                         daily business operations. This system is built using modern technologies such as Node.js for 
                         backend processing, React for building an interactive user interface, and Tailwind CSS for 
@@ -318,7 +325,7 @@ import './App.css'
        
 
 
-       <div className="mt-20 ml-[45%] " id="five" >
+       <div className="mt-20 md:ml-[45%]  ml-20" id="five" >
         <button className="text-white bg-gray-800  px-10 py-3 border border-white hover:bg-white hover:text-gray-500 hover:border-none"
          onClick={handleOkClick}  >
            
@@ -333,13 +340,14 @@ import './App.css'
        
 
        <div className="mt-20 "  >
-        <p className="text-center text-2xl text-white"> Get in touch</p>
+        <p className="text-center md:text-2xl text-3xl text-white"> Get in touch</p>
     
-        <p className="text-5xl text-white  pt-5 pl-[34%]" >Let’s Work Together</p>
+        <p className="md:text-5xl text-4xl text-center text-white  pt-5 " >Let’s Work Together</p>
 
-        <p className="pl-[30%] text-justify pt-8 w-[70%] text-white"> I’m open for new opportunities – especially ambitious or large projects. However, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!.</p>
+        <p className="md:pl-[30%] px-4 text-justify pt-8 md:w-[70%] text-white"> I’m open for new opportunities – especially ambitious or large projects. However, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!.</p>
        
-       <button className="border border-white mt-10 text-white hover:bg-orange-200 bg-gray-800 hover:text-black ml-[47%] px-3 py-4"> Say Hello</button>
+       <button className="border border-white mt-10 text-white hover:bg-orange-200 bg-gray-800
+        hover:text-black md:ml-[47%] ml-[35%] px-3 py-4" onClick={handleOkClicks}> Say Hello</button>
       
        </div>
        <br/>

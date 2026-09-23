@@ -23,27 +23,28 @@ function Hello()
         <div className="bg-gray-800">
            
             <button onClick={handleOkClick} 
-            className="ml-[90%] mt-6">  Back</button>
+            className="md:ml-[90%] ml-4 mt-6">  Back</button>
 
 
 
-           <div className="flex ml-[45%]">
+           <div className="flex md:ml-[45%] ml-[32%]">
             <p className=" pt-20 text-white text-xl"> Home</p>
             <p className="pl-3 pt-20 text-white text-xl"> /</p>
             <p className="pl-3 pt-20 text-white text-xl"> Projects</p>
             </div>
 
             <div className="flex">
-                <h1 className="text-white font-bold text-5xl pl-20 pt-10"> All Projects</h1>
-                <hr className="w-[60%] mt-[5%] ml-10"></hr>
+                <h1 className="text-white font-bold md:text-5xl md:pl-20 pl-8 text-3xl pt-10"> All Projects</h1>
+                <hr className="md:w-[60%] md:mt-[5%] md:ml-10 ml-2 w-[49%] mt-[16%]"></hr>
             </div>
 
-            <p className="text-white pl-[27%] pt-10 text-xl"> A comprehensive collection of web applications, web platforms, and full-stack </p>
-            <p className="text-white pl-[33%] text-xl pt-1"> solutions I've developed using cutting-edge technologies.</p>
+            <p className="text-white md:pl-[27%] px-2 pt-10 text-xl"> A comprehensive collection of web applications, web platforms, and full-stack </p>
+            <p className="text-white md:pl-[33%] px-2 text-xl pt-1"> solutions I've developed using cutting-edge technologies.</p>
             
            
-            <div className="flex mt-20">
-                <div className="bg-white w-[28%] ml-[5%]">
+            {/* <div className="md:flex mt-20"> */}
+            <div className="flex flex-col md:flex-row mt-20">
+                <div className="bg-white md:w-[28%] md:ml-[5%] mx-2">
                     <img src=" /image/Smart Resume.jpeg" className="w-full h-[40%]"/>
                     <p className="text-black pl-8  text-xl pt-10"> Featured Project</p>
                     <p className="pl-8 pt-7 text-blue-400 text-2xl">Smart Resume Scanner</p>
@@ -68,8 +69,9 @@ function Hello()
                     </div>
                     <br></br>
                 </div>
+                <br/>
 
-                <div className="bg-white w-[28%] ml-9">
+                <div className="bg-white md:w-[28%] md:ml-9 mx-2">
                      <img src=" /image/Gyan pargas.jpeg" className="w-full h-[40%]"/>
                      <p className="text-black pl-[7%] text-xl pt-[9%]"> Featured Project</p>
                      <p className="pl-8 pt-7 text-blue-400 text-2xl">Gyan Pargas Trust</p>
@@ -101,8 +103,9 @@ function Hello()
                     
                     
                 </div>
+                <br/>
 
-                <div className="bg-white w-[28%] ml-9">
+                <div className="bg-white md:w-[28%] md:ml-9 mx-2">
                      <img src=" /image/Vyapar ERP.jpeg" className="w-full h-[40%]"/>
                      <p className="text-black pl-8 text-xl pt-10"> Featured Project</p>
                      <p className="pl-8 pt-7 text-blue-400 text-2xl">Vyapar ERP Software</p>
