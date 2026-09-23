@@ -196,6 +196,7 @@ import './App.css'
                         <p className="text-white pt-5 text-justify">Backend Development</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Node.js</p>
                         <p className="text-blue-400 pt-5 text-justify"> . Express.js</p>
+                        <p className="text-blue-400 pt-5 text-justify"> . Data Structures</p>
                         
                        
                         
